@@ -1,0 +1,67 @@
+{
+  "profil": {
+    "name": "Raphaël BRUGGEMAN",
+    "title": "Développeur Web",
+    "description": "Passionné par le développement, je suis constamment à la recherche de nouvelles opportunités et de défis pour améliorer mes compétences. Avec une expérience en HTML, CSS et JavaScript, je suis capable de créer des sites web modernes et réactifs. Mon objectif est de contribuer à des projets innovants et de continuer à apprendre pour rester à la pointe du développement web.",
+    
+    "contact": {
+      "email": "bruggeman.raphael.be@gmail.com",
+      "phone": "0473/48.50.28",
+      "linkedin": "https://www.linkedin.com/in/raphael-bruggeman",
+      "github": "https://github.com/bruggemanraphaelbe-collab"  
+    }
+  },
+  "Experiences": [
+    {
+      "id": 1,
+      "title": "Stagiaire en Développement Web Front-end",
+      "company": "DeBuck Technology",
+      "duration": "24 novembre 2025 - 29 janvier 2026",
+      "description": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Calendrier en Shadow DOM",
+      "description": "Composant de calendrier développé en utilisant le Shadow DOM pour encapsuler le style et la logique du composant, assurant ainsi une isolation complète du reste de la page.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "./assets/pictures/projet1.png",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Jeu du serpent",
+      "description": "Jeu du serpent développé en utilisant JavaScript pour gérer la logique du jeu et CSS pour le style.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Canvas"],
+      "image": "./assets/pictures/projet2.png",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Sécurité par schéma",
+      "description": "Projet de sécurité informatique utilisant le schéma pour identifier l'utilisateur.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Canvas"],
+      "image": "./assets/pictures/projet3.png",
+      "link": ""
+    }
+  ],
+  "logos": [
+    {
+      "name": "html",
+      "symbol_path": "./assets/pictures/logos/html5.svg"
+    },
+    {
+      "name": "css",
+      "symbol_path": "./assets/pictures/logos/css3.svg"
+    },
+    {
+      "name": "javascript",
+      "symbol_path": "./assets/pictures/logos/javascript.svg"
+    },
+    {
+      "name": "canvas",
+      "symbol_path": "./assets/pictures/logos/canvas.svg"
+    }
+  ]
+}
