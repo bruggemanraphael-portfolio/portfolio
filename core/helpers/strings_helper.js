@@ -38,4 +38,12 @@ export class StringsHelper {
 
         return '#';
     }
+
+    static resolveTranslation(field, lang = 'fr', fallback = 'fr') {
+        if (field && typeof field === 'object') {
+            return field[lang] ?? field[fallback] ?? Object.values(field)[0] ?? '';
+        }
+
+        return field ?? '';
+    }
 }

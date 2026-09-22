@@ -1,9 +1,17 @@
 {
   "profil": {
     "name": "Raphaël BRUGGEMAN",
-    "title": "Développeur Web",
-    "description": "Passionné par le développement, je suis constamment à la recherche de nouvelles opportunités et de défis pour améliorer mes compétences. Avec une expérience en HTML, CSS et JavaScript, je suis capable de créer des sites web modernes et réactifs. Mon objectif est de contribuer à des projets innovants et de continuer à apprendre pour rester à la pointe du développement web.",
-    
+    "title": {
+      "fr": "Développeur Web",
+      "en": "Web Developer",
+      "nl": "Webontwikkelaar"
+    },
+    "description": {
+      "fr": "Passionné par le développement, je suis constamment à la recherche de nouvelles opportunités et de défis pour améliorer mes compétences. Avec une expérience en HTML, CSS et JavaScript, je suis capable de créer des sites web modernes et réactifs. Mon objectif est de contribuer à des projets innovants et de continuer à apprendre pour rester à la pointe du développement web.",
+      "en": "Passionate about development, I am constantly looking for new opportunities and challenges to improve my skills. With experience in HTML, CSS and JavaScript, I am able to create modern and responsive websites. My goal is to contribute to innovative projects and keep learning to stay at the forefront of web development.",
+      "nl": "Gepassioneerd door ontwikkeling, ben ik voortdurend op zoek naar nieuwe kansen en uitdagingen om mijn vaardigheden te verbeteren. Met ervaring in HTML, CSS en JavaScript kan ik moderne en responsieve websites bouwen. Mijn doel is om bij te dragen aan innovatieve projecten en te blijven leren om voorop te blijven lopen in webontwikkeling."
+    },
+
     "contact": {
       "email": "bruggeman.raphael.be@gmail.com",
       "phone": "0473/48.50.28",
@@ -14,36 +22,152 @@
   "Experiences": [
     {
       "id": 1,
-      "title": "Stagiaire en Développement Web Front-end",
+      "title": {
+        "fr": "Stagiaire en Développement Web Front-end",
+        "en": "Front-end Web Development Intern",
+        "nl": "Stagiair Front-end Webontwikkeling"
+      },
       "company": "DeBuck Technology",
       "duration": "24 novembre 2025 - 29 janvier 2026",
-      "description": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée."
+      "description": {
+        "fr": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée.",
+        "en": "Learning the Aurelia v1 framework and applying localized improvements.",
+        "nl": "Aanleren van het Aurelia v1-framework en toepassen van gelokaliseerde verbeteringen."
+      },
+      "stack": ["HTML", "CSS", "TypeScript", "Aurelia v1", "gitlab"]
+    },
+    {
+      "id": 2,
+      "title": {
+        "fr": "Développement fullstack",
+        "en": "Fullstack Front-end Web Development",
+        "nl": "Fullstack Front-end Webontwikkeling"
+      },
+      "company": "Tictopia",
+      "duration": "24 novembre 2025 - 29 janvier 2026",
+      "description": {
+        "fr": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée.",
+        "en": "Learning the Aurelia v1 framework and applying localized improvements.",
+        "nl": "Aanleren van het Aurelia v1-framework en toepassen van gelokaliseerde verbeteringen."
+      },
+      "stack": ["HTML", "CSS", "TypeScript", "PHP 8"]
     }
   ],
   "projects": [
     {
       "id": 1,
-      "title": "Calendrier en Shadow DOM",
-      "description": "Composant de calendrier développé en utilisant le Shadow DOM pour encapsuler le style et la logique du composant, assurant ainsi une isolation complète du reste de la page.",
+      "category_id": "web-component",
+      "category": {
+        "fr": "Web Component",
+        "en": "Web Component",
+        "nl": "Webcomponent"
+      },
+      "title": {
+        "fr": "Calendrier en Shadow DOM",
+        "en": "Calendar built with Shadow DOM",
+        "nl": "Kalender met Shadow DOM"
+      },
+      "description": {
+        "fr": "Composant de calendrier développé en utilisant le Shadow DOM pour encapsuler le style et la logique du composant, assurant ainsi une isolation complète du reste de la page.",
+        "en": "Calendar component built using the Shadow DOM to encapsulate the component's style and logic, ensuring complete isolation from the rest of the page.",
+        "nl": "Kalendercomponent gebouwd met de Shadow DOM om de stijl en logica van het component te kapselen, wat volledige isolatie van de rest van de pagina garandeert."
+      },
       "technologies": ["HTML", "CSS", "JavaScript"],
       "image": "./assets/pictures/projet1.png",
-      "link": ""
+      "github": "https://github.com/bruggemanraphael-portfolio/calendar_shadow_dom",
+      "link": "https://bruggemanraphael-portfolio.github.io/calendar_shadow_dom/"
     },
     {
       "id": 2,
-      "title": "Jeu du serpent",
-      "description": "Jeu du serpent développé en utilisant JavaScript pour gérer la logique du jeu et CSS pour le style.",
+      "category_id": "game",
+      "category": {
+        "fr": "Game",
+        "en": "Game",
+        "nl": "Spel"
+      },
+      "title": {
+        "fr": "Jeu du serpent",
+        "en": "Snake game",
+        "nl": "Slangenspel"
+      },
+      "description": {
+        "fr": "Jeu du serpent développé en utilisant JavaScript pour gérer la logique du jeu et CSS pour le style.",
+        "en": "Snake game built using JavaScript to handle the game logic and CSS for styling.",
+        "nl": "Slangenspel gebouwd met JavaScript voor de spellogica en CSS voor de opmaak."
+      },
       "technologies": ["HTML", "CSS", "JavaScript", "Canvas"],
       "image": "./assets/pictures/projet2.png",
-      "link": ""
+      "github": "https://github.com/bruggemanraphael-portfolio/snake_game",
+      "link": "https://bruggemanraphael-portfolio.github.io/snake_game/"
     },
     {
       "id": 3,
-      "title": "Sécurité par schéma",
-      "description": "Projet de sécurité informatique utilisant le schéma pour identifier l'utilisateur.",
+      "category_id": "security",
+      "category": {
+        "fr": "Security",
+        "en": "Security",
+        "nl": "Beveiliging"
+      },
+      "title": {
+        "fr": "Authentification par schéma",
+        "en": "Pattern-based authentication",
+        "nl": "Authenticatie via patroon"
+      },
+      "description": {
+        "fr": "Projet de sécurité informatique utilisant le schéma pour identifier l'utilisateur.",
+        "en": "IT security project using a pattern to identify the user.",
+        "nl": "IT-beveiligingsproject dat een patroon gebruikt om de gebruiker te identificeren."
+      },
       "technologies": ["HTML", "CSS", "JavaScript", "Canvas"],
       "image": "./assets/pictures/projet3.png",
-      "link": ""
+      "github": "https://github.com/bruggemanraphael-portfolio/Pattern-Authentication",
+      "link": "https://bruggemanraphael-portfolio.github.io/Pattern-Authentication/"
+    },
+    {
+      "id": 4,
+      "category_id": "web-component",
+      "category": {
+        "fr": "Web Component",
+        "en": "Web Component",
+        "nl": "Webcomponent"
+      },
+      "title": {
+        "fr": "Card swiper",
+        "en": "Card swiper",
+        "nl": "Kaart-swiper"
+      },
+      "description": {
+        "fr": "Composant utilisateur permettant de swiper des cartes.",
+        "en": "UI component that lets you swipe through cards.",
+        "nl": "UI-component waarmee je kaarten kunt swipen."
+      },
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "./assets/pictures/projet4.png",
+      "github": "https://github.com/bruggemanraphael-portfolio/tik-tok-card-swiper",
+      "link": "https://bruggemanraphael-portfolio.github.io/tik-tok-card-swiper/"
+    },
+    {
+      "id": 5,
+      "category_id": "web-component",
+      "category": {
+        "fr": "Web Component",
+        "en": "Web Component",
+        "nl": "Webcomponent"
+      },
+      "title": {
+        "fr": "Medaillon de profil",
+        "en": "Profile badge",
+        "nl": "Profielmedaillon"
+      },
+      "description": {
+        "fr": "Composant d'interface utilisateur affichant un medaillon de profil.",
+        "en": "UI component displaying a profile badge.",
+        "nl": "UI-component dat een profielmedaillon weergeeft."
+      },
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "./assets/pictures/projet5.png",
+      "github": "https://github.com/bruggemanraphael-portfolio/picture-container",
+      "link": "https://bruggemanraphael-portfolio.github.io/picture-container/"
     }
   ],
   "logos": [
@@ -62,6 +186,22 @@
     {
       "name": "canvas",
       "symbol_path": "./assets/pictures/logos/canvas.svg"
+    },
+    {
+      "name": "typescript",
+      "symbol_path": "./assets/pictures/logos/typescript.svg"
+    },
+    {
+      "name": "aurelia",
+      "symbol_path": "./assets/pictures/logos/aurelia.svg"
+    },
+    {
+      "name": "gitlab",
+      "symbol_path": "./assets/pictures/logos/gitlab.svg"
+    },
+    {
+      "name": "php",
+      "symbol_path": "./assets/pictures/logos/php.svg"
     }
   ]
 }

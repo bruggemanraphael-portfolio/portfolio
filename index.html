@@ -7,23 +7,29 @@
     <link rel="stylesheet" href="./assets/css/portfolio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,1,0&icon_names=dark_mode,light_mode" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body id="app">
         
     <main class="wrapper-container">
+        <div class="mobile-menu-backdrop" aria-hidden="true"></div>
         <div class="header">
             <div class="hamburger"><hr><hr><hr></div> 
             <nav>
                 <ul>
-                    <li><a href="#introduction">Profil</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#missions">Experiences<br>professionnelle</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#introduction" data-i18n="nav_profil">Profil</a></li>
+                    <li><a href="#projets" data-i18n="nav_projets">Projets</a></li>
+                    <li><a href="#missions" data-i18n="nav_experiences">Experiences<br>professionnelle</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="lang-switcher" role="group" aria-label="Choix de la langue">
+                <button type="button" class="lang-btn" data-lang="fr">FR</button>
+                <button type="button" class="lang-btn" data-lang="en">EN</button>
+                <button type="button" class="lang-btn" data-lang="nl">NL</button>
+            </div>
             <span class="toggle-theme-btn material-symbols-outlined" alt="Toggle light/dark theme">light_mode</span>
         </div>
         <div id="introduction">
@@ -32,37 +38,45 @@
             </section>
         </div>
         <div id="projets">
+
             <section>
+                <div class="category-filters"></div>
                 <div class="projects"></div>
+            </section>
+        </div>
+        <div id="missions">
+            <section>
+                <div class="experiences"></div>
             </section>
         </div>
         <div id="contact">
             <section>
+                <div class="profile-watermark" aria-hidden="true"></div>
                 <form id="contact-form" >
                     <div class="name">
-                        <label for="name">Nom / Société</label>
+                        <label for="name" data-i18n="form_name_label">Nom / Société</label>
                         <input type="text" id="name" name="name" autocomplete="name" minlength="2" maxlength="80" required >
-                        <h6 class="error-message">champs requis</h6>
+                        <h6 class="error-message" data-i18n="form_required">champs requis</h6>
                     </div>
                     
                     <div class="email">
-                        <label for="email">Adresse électronique</label>
+                        <label for="email" data-i18n="form_email_label">Adresse électronique</label>
                         <input type="email" id="email" name="email" autocomplete="email" maxlength="254" required >
-                        <h6 class="error-message">champs requis</h6>
+                        <h6 class="error-message" data-i18n="form_required">champs requis</h6>
                     </div>
                     
                     <div class="message">
-                        <label for="message">Message</label>
+                        <label for="message" data-i18n="form_message_label">Message</label>
                         <textarea id="message" name="message" minlength="10" maxlength="1500" required></textarea>
-                        <h6 class="error-message">champs requis</h6>
+                        <h6 class="error-message" data-i18n="form_required">champs requis</h6>
                     </div>
 
                     <div class="website-field" aria-hidden="true">
-                        <label for="website">Site web</label>
+                        <label for="website" data-i18n="form_website_label">Site web</label>
                         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
                     </div>
                     
-                    <button type="submit">Envoyer</button>
+                    <button type="submit" data-i18n="form_submit">Envoyer</button>
                     <h6 class="form-message" role="status" aria-live="polite"></h6>
                 </form>
                 

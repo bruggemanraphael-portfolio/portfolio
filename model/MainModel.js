@@ -1,6 +1,7 @@
 import ProjectsData from '../core/persistance/Projects.js';
 import ProfilData from '../core/persistance/Profil.js';
 import LogosData from '../core/persistance/Logos.js';
+import ExperiencesData from '../core/persistance/Experiences.js';
 import Database from '../core/persistance/Database.js';
 
 export default class MainModel {
@@ -10,6 +11,7 @@ export default class MainModel {
     projectsData = null;
     profilData = null;
     logosData = null;
+    experiencesData = null;
     ready;
 
     constructor() {  
@@ -22,14 +24,15 @@ export default class MainModel {
         this.projectsData = new ProjectsData(this.#database);
         this.profilData = new ProfilData(this.#database);
         this.logosData = new LogosData(this.#database);
+        this.experiencesData = new ExperiencesData(this.#database);
     }
 
-    get_user_profil() {
-        return this.profilData?.get_profil() || null;
+    get_user_profil(lang = 'fr') {
+        return this.profilData?.get_profil(lang) || null;
     }
 
-    get_projects() {
-        return this.projectsData?.get_projects() || [];
+    get_projects(lang = 'fr') {
+        return this.projectsData?.get_projects(lang) || [];
     }
 
     get_project_by_id(id) {
@@ -38,6 +41,10 @@ export default class MainModel {
 
     get_logos() {
         return this.logosData?.get_logos() || [];
+    }
+
+    get_experiences(lang = 'fr') {
+        return this.experiencesData?.get_experiences(lang) || [];
     }
 
 }
