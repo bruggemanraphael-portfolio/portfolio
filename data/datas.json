@@ -30,9 +30,9 @@
       "company": "DeBuck Technology",
       "duration": "24 novembre 2025 - 29 janvier 2026",
       "description": {
-        "fr": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée.",
-        "en": "Learning the Aurelia v1 framework and applying localized improvements.",
-        "nl": "Aanleren van het Aurelia v1-framework en toepassen van gelokaliseerde verbeteringen."
+        "fr": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée sur une app web dans le domaine de la fintech.",
+        "en": "Learning the Aurelia v1 framework and applying localized improvements on a web app in the fintech domain.",
+        "nl": "Aanleren van het Aurelia v1-framework en toepassen van gelokaliseerde verbeteringen op een webapp in de fintech-sector."
       },
       "stack": ["HTML", "CSS", "TypeScript", "Aurelia v1", "gitlab"]
     },
@@ -40,15 +40,31 @@
       "id": 2,
       "title": {
         "fr": "Développement fullstack",
-        "en": "Fullstack Front-end Web Development",
-        "nl": "Fullstack Front-end Webontwikkeling"
+        "en": "Fullstack Web Development",
+        "nl": "Fullstack Webontwikkeling"
       },
       "company": "Tictopia",
-      "duration": "24 novembre 2025 - 29 janvier 2026",
+      "duration": "01 février 2019 - 30 juillet 2020",
       "description": {
-        "fr": "Apprentissage du framework Aurelia v1 et application d'amélioration localisée.",
-        "en": "Learning the Aurelia v1 framework and applying localized improvements.",
-        "nl": "Aanleren van het Aurelia v1-framework en toepassen van gelokaliseerde verbeteringen."
+        "fr": "Analyse et développement d'une app web pour la gestion des stocks pour une société de reconditionnement d'ordinateur de bureau et de portable.",
+        "en": "Analysis and development of a web app for inventory management for a company specializing in the refurbishment of desktop and laptop computers.",
+        "nl": "Analyse en ontwikkeling van een webapp voor voorraadbeheer voor een bedrijf dat zich richt op het opknappen van desktop- en laptopcomputers."
+      },
+      "stack": ["HTML", "CSS", "TypeScript", "PHP 8"]
+    },
+    {
+      "id": 3,
+      "title": {
+        "fr": "Analyste développeur Android/Java & PHP",
+        "en": "Android/Java & PHP Developer",
+        "nl": "Android/Java & PHP Ontwikkelaar"
+      },
+      "company": "QuiCode",
+      "duration": "01 sept 2021 - 30 août 2022",
+      "description": {
+        "fr": "Développé une application de Point de Vente (PDV) pour \"l'Eureka\", optimisant la prise de commande en salle et en terrasse.",
+        "en": "Developed a Point of Sale (POS) application for \"l'Eureka\", optimizing order taking in both the dining area and terrace.",
+        "nl": "Ontwikkelde een Point of Sale (POS)-applicatie voor \"l'Eureka\", waarmee het opnemen van bestellingen in zowel het restaurant als op het terras werd geoptimaliseerd."
       },
       "stack": ["HTML", "CSS", "TypeScript", "PHP 8"]
     }
